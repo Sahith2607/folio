@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "profile-picture",
+      "description": "A portrait of a person.",
+      "imageUrl": "https://picsum.photos/seed/profile/400/400",
+      "imageHint": "portrait person"
+    },
+    {
+      "id": "project-1",
+      "description": "Abstract visualization of data.",
+      "imageUrl": "https://picsum.photos/seed/proj1/600/400",
+      "imageHint": "data visualization"
+    },
+    {
+      "id": "project-2",
+      "description": "A web application interface.",
+      "imageUrl": "https://picsum.photos/seed/proj2/600/400",
+      "imageHint": "web application"
+    },
+    {
+      "id": "project-3",
+      "description": "Machine learning model representation.",
+      "imageUrl": "https://picsum.photos/seed/proj3/600/400",
+      "imageHint": "machine learning"
+    },
+    {
+      "id": "map",
+      "description": "A map showing a location.",
+      "imageUrl": "https://picsum.photos/seed/map/800/600",
+      "imageHint": "city map"
+    }
+  ]
+}
