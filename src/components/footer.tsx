@@ -18,14 +18,14 @@ export default function Footer() {
             <Github className="h-6 w-6" />
           </Link>
           <Link
-            href="https://github.com/Sahith2607"
+            href="https://www.linkedin.com/in/sahith-reddy-ba2212257/"
             className="text-muted-foreground transition-colors hover:text-primary"
             aria-label="LinkedIn"
           >
             <Linkedin className="h-6 w-6" />
           </Link>
           <Link
-            href="https://github.com/Sahith2607"
+            href="https://x.com/SahithR2004"
             className="text-muted-foreground transition-colors hover:text-primary"
             aria-label="X/Twitter"
           >
