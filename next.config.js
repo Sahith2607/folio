@@ -1,21 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
-    domains: ["picsum.photos"], // allow images from picsum.photos
+    domains: ['picsum.photos'],
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "i.ibb.co",
-        pathname: "/**", // allow all images from i.ibb.co
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        pathname: '/**',
       },
     ],
-  },
-
-  eslint: {
-    // Skip ESLint checks during Vercel builds
-    ignoreDuringBuilds: true,
   },
 };
 
